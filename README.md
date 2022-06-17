@@ -5,10 +5,24 @@
 
 ## Prerequisites
 
-* [Jupyter Lab](https://jupyter.org/install.html#getting-started-with-jupyterlab)
+* Have `miniconda` installed
+
+For initial setup
+
+1. Create a conda environment
+
+   ```sh
+   conda create --name book--python-machine-learning --file conda-requirements.txt --channel conda-forge
+   ```
 
 ## Usage
 
 ```sh
-jupyter-lab
+conda activate book--python-machine-learning
+```
+
+To start Jupyter lab, run:
+
+```sh
+conda run jupyter-lab
 ```
